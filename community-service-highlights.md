@@ -1,3 +1,6 @@
+layout: page
+title: "Community Service Highlights"
+permalink: /community-service-highlights
 <!DOCTYPE html>
 <html>
 <head>
