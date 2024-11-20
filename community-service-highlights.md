@@ -10,6 +10,9 @@
     h1{
         font-family:"Playfair Display", serif;
     }
+    a{
+        color:rgb(153, 49, 213);
+    }
 </style>
 </head>
 <body>
