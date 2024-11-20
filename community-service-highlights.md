@@ -1,9 +1,10 @@
+<!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8">
 <title>Community Service Highlights</title>
 <style>
-    body{background-color: hsl(149, 85%, 74%);
+    body{background-color: rgb(132, 245, 187);
         font-family:"Poppins", Arial, Helvetica, sans-serif
     }
     h1{
