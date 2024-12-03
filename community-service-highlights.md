@@ -1,25 +1,233 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 <meta charset="utf-8">
-<title>Community Service Highlights</title>
+<title>Community Service</title>
 <style>
-    body{background-color: rgb(255, 255, 255);
-        font-family:"Poppins", Arial, Helvetica, sans-serif
+    body{
+    background-color:rgb(256, 256, 256);
+    color:rgb(0, 0, 0);
+    font-family:"Poppins", "Arial", "Helvetica", sans-serif;
+}
+    .listing{
+        background-color:rgb(34, 193, 52);
+        position:relative;
+        left:6em;
     }
-    h1{
-        font-family:"Playfair Display", serif;
+    #sidebar{
+        position: fixed;
+        float: left;
+        background-color:rgb(34, 193, 52);
+        height:500em;
+        width: 5.2em;
+        z-index:3;
+    }
+    #title{
+        position:relative;
     }
     a{
-        color:rgb(153, 49, 213);
+        color:rgb(26, 91, 169);
+    }
+    .monthTitle{
+        font-family:'Playfair Display', 'Georgia', 'Times New Roman', Times, serif;
+    }
+    .bodyContent{
+        position: relative;
+        left: 100px
+    }
+    button{
+        background-color: rgb(109, 232, 248)
+    }
+    #undatedOpportunities{
+        background-color: rgb(180, 244, 252);
+    }
+    .undatedListing{
+        background-color: rgb(110, 204, 216);
+    }
+    #january{
+        background-color: rgb(180, 244, 252);
+    }
+    .januaryListing{
+        background-color: rgb(110, 204, 216);
+    }
+    #december{
+        background-color: rgb(255, 134, 174);
+    }
+    .decemberListing{
+        background-color: rgb(216, 80, 126);
+    }
+    #february{
+        background-color: rgb(254, 172, 235);
+    }
+    .februaryListing{
+        background-color: rgb(202, 77, 173);
+    }
+    #march{
+        background-color: rgb(139, 201, 137);
+    }
+    .marchListing{
+        background-color: rgb(93, 151, 91);
+    }
+    #april{
+        background-color: rgb(202, 142, 255);
+    }
+    .aprilListing{
+        background-color: rgb(152, 103, 195);
+    }
+    #may{
+        background-color: rgb(244, 94, 194);
+    }
+    .mayListing{
+        background-color: rgb(198, 74, 156);
+    }
+    #june{
+        background-color: rgb(248, 243, 109);
+    }
+    .juneListing{
+        background-color: rgb(227, 221, 45);
+    }
+    #july{
+        background-color: rgb(255, 171, 101);
+    }
+    .julyListing{
+        background-color: rgb(229, 132, 52);
+
+    }
+    #august{
+        background-color: rgb(255, 74, 74);
+    }
+    .augustListing{
+        background-color: rgb(217, 38, 38);
+    }
+    #september{
+        background-color: rgb(247, 241, 71);
+    }
+    .septemberListing{
+        background-color: rgb(222, 216, 44); 
+    }
+    #october{
+        background-color: rgb(249, 181, 65);    
+    }
+    .octoberListing{    
+        background-color: rgb(218, 144, 16);    
+    }
+    #november{
+        background-color: rgb(211, 32, 65);
+    }
+    .novemberListing{
+        background-color: rgb(183, 6, 38);
     }
 </style>
+
 </head>
+
 <body>
-<h1>Community Service Highlights Page</h1>
-<h3>Here we display user-submitted pictures of community service accomplished with our site. If you would like to submit a picture, please email us <a href="mailto:brody.kidd@stu.rowan.kyschools.us">here</a> with the picture and a brief caption.</h3>
+<div id="sidebar">
+Want your community service opportunity on our website?
+Email us <a href="mailto:brody.kidd@stu.rowan.kyschools.us?subject=Community Service Opportunity&body=Please provide some information about your community service opportunity such as what needs done, the date, etc." target="_blank">here.</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSdqOWh6tjL99MfEfULTVXh7cFCahwJM7E8fCmW0Uv_gh-47ig/viewform?usp=sf_link" ><button id="googleFormButton">Click here to help us log site use.</button></a>
+<a href="https://brodykisntarobot.github.io/community-service-highlights"><button>Click here to see user highlights.</button></a>
+</div>
+<div id="title">
+<h1 class="bodyContent monthTitle">Community Service Opportunities</h1>
+<h3 class="bodyContent">Rowan County's database of community service opportunities for its students.</h3>
+</div>
+<div id="undatedOpportunities" class="bodyContent">
+    <h2 class="monthTitle">Undated Community Service Opportunities.</h2>
+    <h3>Here we display opportunities that don't have a specific date associated with them.</h3>
+    <div class="undatedListing">
+    <h3>Volunteer at the library.</h3>
+    <p>Here is the Rowan County Public Library's teen volunteer application.</p>
+    <a href="https://www.rowancountylibrary.org/sites/default/files/2023-12/volunteer%20application%20teen.pdf">Volunteer application</a>
+    </div>
+    <br>
+    <div class="undatedListing">
+    <h3>Volunteer at the animal shelter.</h3>
+    <p>The animal shelter welcomes volunteers that would like to stop in. It is advised that you call them at 606-784-4930 before coming. <br>Volunteers under the age of eighteen do require a chaperone.</p>
+    </div>
+</div>
+<div id="december" class="bodyContent">
+    <h2 class="monthTitle">December</h2>
+    <div class="decemberListing">
+        <h3>Help Rowan County Christmas</h3>
+        <p>If you would like to help, contact Rhonda Holley at 606-356-1661.</p>
+    </div>
+    <br>
+        <div class="decemberListing">
+        <h3>Volunteer at the ice rink.</h3>
+        <p>If you would like to help run concessions, distribute skate rentals or collect waivers, contact <a href="mailto:jfrazier@cityofmorehead.net">Jenny Frazier</a>.</p>
+    </div>
+</div>
+<div id="january" class="bodyContent">
+    <h2 class="monthTitle">January</h2>
+    <div class="januaryListing">
 
+    </div>
+</div>
+<div id="february" class="bodyContent">
+    <h2 class="monthTitle">February</h2>
+    <div class="februaryListing">
+    </div>
+</div>
+<div id="march" class="bodyContent">
+    <h2 class="monthTitle">March</h2>
+    <div class="marchListing">
 
-</body>
+    </div>
+</div>
+<div id="april" class="bodyContent">
+    <h2 class="monthTitle">April</h2>
+    <div class="aprilListing">
+
+    </div>
+</div>
+<div id="may" class="bodyContent">
+    <h2 class="monthTitle">May</h2>
+    <div class="mayListing">
+
+    </div>
+</div>
+<div id="june" class="bodyContent">
+    <h2 class="monthTitle">June</h2>
+    <div class="juneListing">
+
+    </div>
+</div>
+<div id="july" class="bodyContent">
+    <h2 class="monthTitle">July</h2>
+    <div class="julyListing">
+
+    </div>
+</div>
+<div id="august" class="bodyContent">
+    <h2 class="monthTitle">August</h2>
+    <div class="augustListing">
+
+    </div>
+</div>
+<div id="september" class="bodyContent">
+    <h2 class="monthTitle">September</h2>
+    <div class="septemberListing">
+
+    </div>
+</div>
+<div id="october" class="bodyContent">
+    <h2 class="monthTitle">October</h2>
+    <div class="octoberListing">
+
+    </div>
+</div>
+<div id="november" class="bodyContent">
+    <h2 class="monthTitle">November</h2>
+    <div class="novemberListing">
+    <h3>listing title</h3>
+    <h4>listing info</h4>
+    <h4><a >email address</a></h4>
+    </div>
+</div>
+
+<body>
+
 
 </html>
